@@ -38,14 +38,18 @@
             "low": 1,
             "average": 5,
             "high": 10
-        },
+        }
     }],
     "coinType": 118,
-    "features": ["cosmwasm", "ibc-transfer", "ibc-go"],
+    "features": [
+        "cosmwasm",
+        "ibc-transfer",
+        "ibc-go"
+    ],
     "walletUrl": "https://chihuahua.omniflix.co",
     "walletUrlForStaking": "https://chihuahua.omniflix.co/stake",
     "txExplorer": {
         "name": "Mintscan",
-        "txUrl": "https://www.mintscan.io/chihuahua/txs/{txHash}",
+        "txUrl": "https://www.mintscan.io/chihuahua/txs/{txHash}"
     }
 }
