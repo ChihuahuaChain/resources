@@ -24,8 +24,7 @@ go version
 ⚠️ Failure to do will most likely result in your node double-signing and being jailed forever (tombstoned) ⚠️
 
 ### In case you need a fresh snapshot you can download it from
- - [Mirror #1](https://share.kingnodes.com/snapshot.tar.gz)
- - [Mirror #2](http://65.21.131.216/snapshot.tar.gz)
+ - [Mirror #2](http://65.21.131.216/new_snapshot.tar.gz)
 
 ⚠️ Don't forget to Backup your ~/.chihuahuad/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
 
