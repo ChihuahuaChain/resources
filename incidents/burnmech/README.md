@@ -27,14 +27,14 @@ go version
  - [Mirror #1](https://share.kingnodes.com/snapshot.tar.gz)
  - [Mirror #2](http://65.21.131.216/snapshot.tar.gz)
 
-⚠️ Don't forget to Backup your ~/.chihuahua/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
+⚠️ Don't forget to Backup your ~/.chihuahuad/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
 
 
 ```bash
 
-cp ~/.chihuahua/data/priv_validator_state.json ~/
+cp ~/.chihuahuad/data/priv_validator_state.json ~/
 
-diff -s ~/.chihuahua/data/priv_validator_state.json ~/priv_validator_state.json
+diff -s ~/.chihuahuad/data/priv_validator_state.json ~/priv_validator_state.json
 
 # the output should be
 # Files .../data/priv_validator_state.json and /home/chihuahua/priv_validator_state.json are identical
@@ -58,11 +58,11 @@ chihuahuad version --long |grep commit
 ## If you are using Cosmovisor
 
 ```bash
-rm ~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad
+rm ~/.chihuahuad/cosmovisor/upgrades/burnmech/bin/chihuahuad
 
-cp ~/go/bin/chihuahuad ~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad
+cp ~/go/bin/chihuahuad ~/.chihuahuad/cosmovisor/upgrades/burnmech/bin/chihuahuad
 
-~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad version --long
+~/.chihuahuad/cosmovisor/upgrades/burnmech/bin/chihuahuad version --long
 
 # the output should be
 # commit: 36ee9133360dadfe8f96527442908407fd04abb7
