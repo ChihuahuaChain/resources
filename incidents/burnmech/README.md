@@ -1,5 +1,5 @@
 # ChihuahuaChain Restart (3rd Attempt)
-## ⚠️ DRAFT ONLY - DO NOT EXECUTE YET ⚠️
+## ⚠️ DRAFT ONLY - PREPARE AND DON'T START THE VALIDATOR YET ⚠️
 
 
 ### We are going to restart the network with v3.0.0 (no burning mechanism)
