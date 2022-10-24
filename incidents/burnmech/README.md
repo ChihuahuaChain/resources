@@ -87,7 +87,7 @@ pruning = "nothing"
 
 ## !!! Before restarting your node !!!
 
-### Fill [this Google Sheet form](https://docs.google.com/spreadsheets/d/1kPSfn916Jp2VyQTqguy1oM179gtvUzLI0m-ub666rvQ/edit#gid=1571541180) and make sure every row on your validator is GREEN before starting it!
+### Fill [this Google Sheet form](https://docs.google.com/spreadsheets/d/1kPSfn916Jp2VyQTqguy1oM179gtvUzLI0m-ub666rvQ/edit#gid=1571541180) and make sure every row on your validator is GREEN and WAIT OUR INSTRUCTION BEFORE STARTING THE VALIDATOR!
 ### If that's not the case reach out to the #priv-validators channel on Discord and you will find support
 ### This is not a race to see who makes it first, take your time to verify everything 10 times before restarting.
 
