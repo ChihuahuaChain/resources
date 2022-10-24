@@ -62,7 +62,7 @@ rm ~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad
 
 cp ~/go/bin/chihuahuad ~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad
 
-~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad --version long
+~/.chihuahua/cosmovisor/upgrades/burnmech/bin/chihuahuad version --long
 
 # the output should be
 # commit: 36ee9133360dadfe8f96527442908407fd04abb7
