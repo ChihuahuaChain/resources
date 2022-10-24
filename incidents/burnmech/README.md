@@ -4,7 +4,7 @@
 
 ### We are going to restart the network with v3.0.0 (no burning mechanism)
 
-### In order for the chain to sucessfully restart we ask you to STRICTLY FOLLOW this tutorial, failure do to so will resul in a failure to resume the block production.
+### In order for the chain to sucessfully restart we ask you to STRICTLY FOLLOW this tutorial, failure do to so will result in a failure to resume the block production.
 
 # !!! Before beginning make sure the node is HALTED !!!
 
@@ -21,7 +21,7 @@ go version
 ```
 
 ## Backup your priv_validator_state.json
-⚠️ Failure to do will most likely result in your node double-signing and being slashed forever ⚠️
+⚠️ Failure to do will most likely result in your node double-signing and being jailed forever (tombstoned) ⚠️
 
 ```bash
 
