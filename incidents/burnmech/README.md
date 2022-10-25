@@ -68,7 +68,7 @@ cp ~/go/bin/chihuahuad ~/.chihuahuad/cosmovisor/upgrades/burnmech/bin/chihuahuad
 ```
 
 ## Manually edit the app.toml file
-⚠️ It is very important that you <b>VERIFY and ADD THESE LINES</b> at the end of the app.toml file
+⚠️ It is very important that you <b>VERIFY and ADD THESE LINES RIGHT BEFORE THE TELEMETRY PART IN YOUR app.toml FILE</b>
 ```bash
 # IAVLDisableFastNode enables or disables the fast node feature of IAVL.
 # Default is true.
