@@ -1,8 +1,13 @@
 {
     "chainId": "chihuahua-1",
-    "chainName": "Chihuahua v1.0",
+    "chainName": "Chihuahua v1.1",
     "rpc": "https://rpc.chihuahua.wtf:443/",
     "rest": "https://api.chihuahua.wtf:443/",
+    "nodeProvider": {
+        "name": "Chihuahua Node",
+        "email": "chi@huahua.wtf",
+        "website":"https://www.chihuahua.wtf"
+    },
     "stakeCurrency": {
         "coinDenom": "HUAHUA",
         "coinMinimalDenom": "uhuahua",
@@ -40,11 +45,15 @@
             "high": 10
         }
     }],
-    "coinType": 118,
     "features": [
         "cosmwasm",
         "ibc-transfer",
         "ibc-go"
+    ],
+    "alternativeBIP44s": [
+        {
+          "coinType": 639
+        }
     ],
     "walletUrl": "https://chihuahua.omniflix.co",
     "walletUrlForStaking": "https://chihuahua.omniflix.co/stake",
