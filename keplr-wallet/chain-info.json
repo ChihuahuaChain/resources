@@ -1,6 +1,6 @@
 {
     "chainId": "chihuahua-1",
-    "chainName": "Chihuahua v1.1",
+    "chainName": "Chihuahua v1.2",
     "rpc": "https://rpc.chihuahua.wtf:443/",
     "rest": "https://api.chihuahua.wtf:443/",
     "nodeProvider": {
@@ -40,9 +40,9 @@
         "coinGeckoId": "chihuahua-token",
         "coinImageUrl": "https://raw.githubusercontent.com/ChihuahuaChain/resources/main/logo/logo_transparent_notext.png",
         "gasPriceStep": {
-            "low": 1,
-            "average": 5,
-            "high": 10
+            "low": 100,
+            "average": 250,
+            "high": 500
         }
     }],
     "features": [
